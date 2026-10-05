@@ -5,7 +5,9 @@ $INSERT I_COMMON
 $INSERT I_EQUATE
 
 CRT "Hello World - Program"
-CALL M.TEST.RTN
+MSG = ""
+CALL M.TEST.RTN(MSG)
+CRT "From Routine: " : MSG
 
 RETURN
 
