@@ -4,7 +4,7 @@ SUBROUTINE M.TEST.RTN
 $INSERT I_COMMON
 $INSERT I_EQUATE
 
-CRT "Hello World - Routine 7oct!"
+CRT "Hello World - Routine 8oct!"
 
 RETURN
 

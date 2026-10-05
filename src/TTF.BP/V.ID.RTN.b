@@ -1,19 +1,11 @@
 $PACKAGE TTF.BP
 SUBROUTINE V.ID.RTN
-*-----------------------------------------------------------------------------
-*
-*-----------------------------------------------------------------------------
-* Modification History :
-*-----------------------------------------------------------------------------
-
-*-----------------------------------------------------------------------------
-    $INSERT I_COMMON
-    $INSERT I_EQUATE
-    IF COMI = "HOHO" THEN
-        E = "In ID Routine 7oct"
-    END
-
+$INSERT I_COMMON
+$INSERT I_EQUATE
+IF COMI = "HOHO" THEN
+    CALL M.TEST.RTN
+    E = "In ID Routine 8oct - M.TEST.RTN Executed!"
+END
 RETURN
-
 END
 
