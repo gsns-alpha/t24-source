@@ -11,17 +11,12 @@ t24-source/
 ├── src/                                  # Pure T24 BASIC (.b) Source Routines
 │   ├── TPS.BP/
 │   │   ├── M.TEST.PGM.b                  # Standalone Program: prints "Hello World - Program"
-│   │   ├── M.TEST.RTN.b                  # Callable Subroutine: prints "Hello World - Routine"
+│   │   ├── M.TEST.RTN.b                  # Callable Subroutine: returns "Hello World - Routine 8oct!"
 │   │   └── TPS.BP.component              # TAFJ Component Definition for TPS.BP
 │   └── TTF.BP/
 │       ├── V.ID.RTN.b                    # T24 Application ID Validation Routine (checks for "HOHO")
 │       └── TTF.BP.component              # TAFJ Component Definition for TTF.BP
-├── tafc_components/                      # TAFC Data Structure & Header definitions
-│   ├── TPS.BP.h, TPS.BP.getDataStructureFields.b, ...
-│   └── TTF.BP.h, TTF.BP.getDataStructureFields.b, ...
-├── jars/                                 # Pre-compiled JAR Packages
-│   ├── TTF_BP.jar                        # Active library loaded by JBoss EAP 7.4
-│   └── TPS_BP.jar                        # TPS package jar
+├── build.list                            # Selective compilation manifest for CI/CD pipeline
 ├── conf/
 │   └── tafj.properties                   # Live TAFJ R24 runtime & compiler configuration
 └── t24_source_code.tar.gz                # Original complete server backup archive
