@@ -7,7 +7,7 @@ $INSERT I_EQUATE
 IF COMI = "HOHO" THEN
     RET.MSG = ""
     CALL M.TEST.RTN(RET.MSG)
-    E = "From TPS.BP: " : RET.MSG:" SIT-BDM-1 to SIT-BDM-3"
+    E = "From TPS.BP: " : RET.MSG
 END
 
 RETURN
