@@ -1,5 +1,3 @@
 # T24 L3 Selective Compilation Manifest
 # Routines listed below will be selectively compiled and deployed into runtime JARs
 src/TTF.BP/V.ID.RTN.b
-src/TPS.BP/M.TEST.RTN.b
-src/TPS.BP/M.TEST.PGM.b
